@@ -1,0 +1,24 @@
+Package: figlet
+Version: 2.2.5-3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 734
+Depends: libc6 (>= 2.14)
+Filename: ./figlet_2.2.5-3_amd64.deb
+Size: 133198
+MD5sum: 152bdf6bc9908f6bcc0f3a78e54aa5b5
+SHA1: 455361e8cf81cccb702f7fbc50a482770a1cbbd0
+SHA256: 029a54c786ebfe32fd60f00d188925cf243cf8b2647ffd597335a547faffed61
+Section: text
+Priority: optional
+Homepage: http://www.figlet.org/
+Description: Make large character ASCII banners out of ordinary text
+ FIGlet (Frank, Ian & Glenn's Letters) is a program that creates large
+ characters out of ordinary screen characters.
+ .
+ It can create characters in many different styles and can
+ kern and "smush" these characters together in various ways.  FIGlet
+ output is generally reminiscent of the sort of "signatures" many people
+ like to put at the end of e-mail, Usenet and MOTD messages.
+Original-Maintainer: Carlos Laviola <claviola@debian.org>
+
