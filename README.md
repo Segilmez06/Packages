@@ -1,4 +1,4 @@
-# MainPPA
+# Segilmez06 MainPPA
 
 ## Installation
 ```sh
