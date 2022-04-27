@@ -1,0 +1,114 @@
+Package: libc6
+Source: glibc
+Version: 2.34-0ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12730
+Depends: libgcc-s1, libcrypt1 (>= 1:4.4.10-10ubuntu4)
+Recommends: libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus
+Suggests: glibc-doc, debconf | debconf-2.0, locales
+Breaks: busybox (<< 1.30.1-6), fakeroot (<< 1.25.3-1.1ubuntu2~), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.34), locales-all (<< 2.34), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.34), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.2p1-4), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)
+Replaces: libc6-amd64
+Filename: pkgs/libc6_2.34-0ubuntu3_amd64.deb
+Size: 3027942
+MD5sum: 83d205b35266327c0cd2964129952d7a
+SHA1: 73e8e389aeb500d5ac6849f80c06615ec2c1eb22
+SHA256: 27e68efbb5d27b777a466bfa60f5adbe403131a55ddf74fc7244bcee1755b1b5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libncursesw6
+Source: ncurses
+Version: 6.2+20201114-2build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 418
+Depends: libtinfo6 (= 6.2+20201114-2build1), libc6 (>= 2.14)
+Recommends: libgpm2
+Filename: pkgs/libncursesw6_6.2+20201114-2build1_amd64.deb
+Size: 131540
+MD5sum: 68bdb874792cd97c11ff3481b2b874f6
+SHA1: a942de5b35fd0f3855e35e0168a9eb73d06bb5c4
+SHA256: e7b8d565c22a36ed089702d05e5d4fc94c898dc54ef71d0924b4076377fa0cb7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (wide character support)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared libraries necessary to run programs
+ compiled with ncursesw, which includes support for wide characters.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: libtinfo6
+Source: ncurses
+Version: 6.2+20201114-2build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 540
+Depends: libc6 (>= 2.33)
+Filename: pkgs/libtinfo6_6.2+20201114-2build1_amd64.deb
+Size: 87052
+MD5sum: 94cc0c16ceff4971aaa2d602e29064d8
+SHA1: d7e6db35f9d90cfd1a97c570b75788b9297b5651
+SHA256: 5c034659ed72dbe9b9f8dd42d194939ec2051eb1b4df111f7f3ae5f315bf2098
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library for terminal handling
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared low-level terminfo library.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: nano
+Version: 5.6.1-1build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 916
+Depends: libc6 (>= 2.33), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Suggests: hunspell
+Conflicts: pico
+Breaks: nano-tiny (<< 2.8.6-2)
+Replaces: nano-tiny (<< 2.8.6-2), pico
+Filename: pkgs/nano_5.6.1-1build1_amd64.deb
+Size: 307320
+MD5sum: 16734f97ec898a1565c19209cc361245
+SHA1: 1d761ccc51658499a2f02c15e21a483bbb2aafa6
+SHA256: 8309f1a6d4ade9e6b3964d72d1019dee75226678929f75233aa5d612c67befb4
+Section: editors
+Priority: important
+Homepage: https://www.nano-editor.org/
+Description: small, friendly text editor inspired by Pico
+ GNU nano is an easy-to-use text editor originally designed as a replacement
+ for Pico, the ncurses-based editor from the non-free mailer package Pine
+ (itself now available under the Apache License as Alpine).
+ .
+ However, GNU nano also implements many features missing in Pico, including:
+  - undo/redo
+  - line numbering
+  - syntax coloring
+  - soft-wrapping of overlong lines
+  - selecting text by holding Shift
+  - interactive search and replace (with regular expression support)
+  - a go-to line (and column) command
+  - support for multiple file buffers
+  - auto-indentation
+  - tab completion of filenames and search terms
+  - toggling features while running
+  - and full internationalization support
+Original-Maintainer: Jordi Mallach <jordi@debian.org>
+
