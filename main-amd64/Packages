@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 734
 Depends: libc6 (>= 2.14)
-Filename: ./figlet_2.2.5-3_amd64.deb
+Filename: ./pkgs/figlet_2.2.5-3_amd64.deb
 Size: 133198
 MD5sum: 152bdf6bc9908f6bcc0f3a78e54aa5b5
 SHA1: 455361e8cf81cccb702f7fbc50a482770a1cbbd0
